@@ -1,0 +1,644 @@
+{
+  "checks": [
+    {
+      "check": "previous delivery remains byte-identical",
+      "passed": true
+    },
+    {
+      "check": "unchanged primary collection code",
+      "passed": true
+    },
+    {
+      "check": "unchanged primary EAMF code",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_predictions executed collector",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_predictions parent protocol",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_predictions/clean full fold",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/clean executed analyzer",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/clean metric helper",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/clean 2352 raw and parent hashes",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/clean matched image coverage",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/clean/Baseline official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/clean/EAMF official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/clean/ZeroDCE official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/clean paired bootstrap quantiles",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_predictions/gamma3.0 full fold",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/gamma3.0 executed analyzer",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/gamma3.0 metric helper",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/gamma3.0 2352 raw and parent hashes",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/gamma3.0 matched image coverage",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/gamma3.0/Baseline official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/gamma3.0/EAMF official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/gamma3.0/ZeroDCE official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/gamma3.0 paired bootstrap quantiles",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_predictions/linear_noise full fold",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/linear_noise executed analyzer",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/linear_noise metric helper",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/linear_noise 2352 raw and parent hashes",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/linear_noise matched image coverage",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/linear_noise/Baseline official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/linear_noise/EAMF official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/linear_noise/ZeroDCE official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "zero_dce_analysis/linear_noise paired bootstrap quantiles",
+      "passed": true
+    },
+    {
+      "check": "yolov9_predictions executed collector",
+      "passed": true
+    },
+    {
+      "check": "yolov9_predictions parent protocol",
+      "passed": true
+    },
+    {
+      "check": "yolov9_predictions/clean full fold",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/clean executed analyzer",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/clean metric helper",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/clean 2352 raw and parent hashes",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/clean matched image coverage",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/clean/Baseline official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/clean/EAMF official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/clean/Gamma official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/clean paired bootstrap quantiles",
+      "passed": true
+    },
+    {
+      "check": "yolov9_predictions/gamma3.0 full fold",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/gamma3.0 executed analyzer",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/gamma3.0 metric helper",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/gamma3.0 2352 raw and parent hashes",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/gamma3.0 matched image coverage",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/gamma3.0/Baseline official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/gamma3.0/EAMF official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/gamma3.0/Gamma official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/gamma3.0 paired bootstrap quantiles",
+      "passed": true
+    },
+    {
+      "check": "yolov9_predictions/linear_noise full fold",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/linear_noise executed analyzer",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/linear_noise metric helper",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/linear_noise 2352 raw and parent hashes",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/linear_noise matched image coverage",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/linear_noise/Baseline official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/linear_noise/EAMF official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/linear_noise/Gamma official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "yolov9_analysis/linear_noise paired bootstrap quantiles",
+      "passed": true
+    },
+    {
+      "check": "finetune_predictions executed collector",
+      "passed": true
+    },
+    {
+      "check": "finetune_predictions parent protocol",
+      "passed": true
+    },
+    {
+      "check": "finetune_predictions/clean full fold",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/clean executed analyzer",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/clean metric helper",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/clean 2352 raw and parent hashes",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/clean matched image coverage",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/clean/Baseline official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/clean/EAMF official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/clean/FineTuneGamma official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/clean paired bootstrap quantiles",
+      "passed": true
+    },
+    {
+      "check": "finetune_predictions/gamma3.0 full fold",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/gamma3.0 executed analyzer",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/gamma3.0 metric helper",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/gamma3.0 2352 raw and parent hashes",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/gamma3.0 matched image coverage",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/gamma3.0/Baseline official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/gamma3.0/EAMF official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/gamma3.0/FineTuneGamma official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/gamma3.0 paired bootstrap quantiles",
+      "passed": true
+    },
+    {
+      "check": "finetune_predictions/linear_noise full fold",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/linear_noise executed analyzer",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/linear_noise metric helper",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/linear_noise 2352 raw and parent hashes",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/linear_noise matched image coverage",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/linear_noise/Baseline official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/linear_noise/EAMF official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/linear_noise/FineTuneGamma official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "finetune_analysis/linear_noise paired bootstrap quantiles",
+      "passed": true
+    },
+    {
+      "check": "calibrated_predictions executed collector",
+      "passed": true
+    },
+    {
+      "check": "calibrated_predictions parent protocol",
+      "passed": true
+    },
+    {
+      "check": "calibrated_predictions/clean full fold",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/clean executed analyzer",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/clean metric helper",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/clean 2352 raw and parent hashes",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/clean matched image coverage",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/clean/Baseline official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/clean/CalibratedEAMF official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/clean/EAMF official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/clean paired bootstrap quantiles",
+      "passed": true
+    },
+    {
+      "check": "calibrated_predictions/gamma3.0 full fold",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/gamma3.0 executed analyzer",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/gamma3.0 metric helper",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/gamma3.0 2352 raw and parent hashes",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/gamma3.0 matched image coverage",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/gamma3.0/Baseline official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/gamma3.0/CalibratedEAMF official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/gamma3.0/EAMF official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/gamma3.0 paired bootstrap quantiles",
+      "passed": true
+    },
+    {
+      "check": "calibrated_predictions/linear_noise full fold",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/linear_noise executed analyzer",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/linear_noise metric helper",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/linear_noise 2352 raw and parent hashes",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/linear_noise matched image coverage",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/linear_noise/Baseline official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/linear_noise/CalibratedEAMF official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/linear_noise/EAMF official AP reaggregation",
+      "passed": true
+    },
+    {
+      "check": "calibrated_analysis/linear_noise paired bootstrap quantiles",
+      "passed": true
+    },
+    {
+      "check": "executed training source preserved",
+      "passed": true
+    },
+    {
+      "check": "final checkpoint matches actual completed training",
+      "passed": true
+    },
+    {
+      "check": "three epochs recorded",
+      "passed": true
+    },
+    {
+      "check": "fine-tuning source excludes exact test-image overlap",
+      "passed": true
+    },
+    {
+      "check": "fine-tuning source is deduplicated",
+      "passed": true
+    },
+    {
+      "check": "validation calibration executed source",
+      "passed": true
+    },
+    {
+      "check": "predeclared 21 configurations and validation-only selection",
+      "passed": true
+    },
+    {
+      "check": "recorded validation argmax and tie rule",
+      "passed": true
+    },
+    {
+      "check": "executed standalone benchmark source",
+      "passed": true
+    },
+    {
+      "check": "executed benchmark helper",
+      "passed": true
+    },
+    {
+      "check": "all 3456 standalone timing measurements unique and complete",
+      "passed": true
+    },
+    {
+      "check": "positive finite measured totals",
+      "passed": true
+    },
+    {
+      "check": "clean/Baseline measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "clean/EAMF measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "clean/FineTuneGamma measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "clean/Gamma measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "clean/TTAms3 measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "clean/YOLOv9Baseline measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "clean/YOLOv9EAMF measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "clean/ZeroDCE measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "gamma3.0/Baseline measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "gamma3.0/EAMF measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "gamma3.0/FineTuneGamma measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "gamma3.0/Gamma measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "gamma3.0/TTAms3 measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "gamma3.0/YOLOv9Baseline measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "gamma3.0/YOLOv9EAMF measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "gamma3.0/ZeroDCE measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "linear_noise/Baseline measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "linear_noise/EAMF measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "linear_noise/FineTuneGamma measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "linear_noise/Gamma measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "linear_noise/TTAms3 measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "linear_noise/YOLOv9Baseline measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "linear_noise/YOLOv9EAMF measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "linear_noise/ZeroDCE measured timing aggregation",
+      "passed": true
+    },
+    {
+      "check": "manuscript_table_lineage.json final TeX hashes",
+      "passed": true
+    },
+    {
+      "check": "final_extension_lineage.json final TeX hashes",
+      "passed": true
+    },
+    {
+      "check": "extension table input hashes",
+      "passed": true
+    },
+    {
+      "check": "official conference template class",
+      "passed": true
+    }
+  ],
+  "new_raw_records": 28224,
+  "scope": "Actual extension outputs, official AP, training and timing lineage. Does not certify author declarations, private portal state, deadline resolution, publication access, or visual layout.",
+  "status": "PASS",
+  "verifier_sha256": "41d2a098f91e54ebca0e05bb3d3d7640f115693d12e7afb4ea3ce9fa3078f8c6"
+}

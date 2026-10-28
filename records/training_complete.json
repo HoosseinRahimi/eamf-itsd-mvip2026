@@ -1,0 +1,7 @@
+{
+  "checkpoint": "D:\\CodexScratch\\MVIP2026_finalization_20261028\\gamma_finetune\\run\\weights\\last.pt",
+  "completed_epochs": 3,
+  "last_checkpoint_sha256": "92a6c3a404679bc97c263b040336917c5a1e47e02742861a84c22dd3db815547",
+  "training_protocol_sha256": "84d04d27207c30d4199ced5f579030e7333b7a42f6e158d6e5450c1bc0001b6b",
+  "training_seconds": 329.3716181
+}

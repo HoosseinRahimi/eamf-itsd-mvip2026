@@ -1,0 +1,53 @@
+{
+  "code_sha256": "691bac0a062796204e7d5e13b07c3ed4a4b9ee5fdfb44815529a69638f244baa",
+  "common_resize": "INTER_LINEAR, aspect-preserving; same working input and normalized labels for all methods; corruptions after common resize",
+  "conf": 0.001,
+  "detector_iou": 0.7,
+  "device": "0",
+  "eamf_sha256": "eaace19df9def63d4b323ec9dc86d0893da99b60ac173930d4b794e8236dc000",
+  "environment": {
+    "created_utc": "2026-10-27T19:27:20.408477+00:00",
+    "machine": "AMD64",
+    "packages": {
+      "PyYAML": "6.0.2",
+      "ensemble-boxes": "1.0.9",
+      "numpy": "1.26.4",
+      "opencv-python": "4.11.0.86",
+      "pandas": "2.3.3",
+      "torch": "2.2.2+cu121",
+      "torchvision": "0.17.2+cu121",
+      "tqdm": "4.67.1",
+      "ultralytics": "8.3.233"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+    "python_executable": "D:\\CodexScratch\\MVIP2026_revision_20261027\\.venv-gpu\\Scripts\\python.exe",
+    "python_version": "3.12.3 (main, Apr 15 2024, 17:48:16) [MSC v.1929 64 bit (AMD64)]",
+    "torch_hardware": {
+      "cuda_available": true,
+      "cuda_device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "cuda_runtime": "12.1"
+    }
+  },
+  "half": false,
+  "images": "D:\\CodexScratch\\MVIP2026_provenance\\fold1\\Fold-1\\images",
+  "imgsz": 640,
+  "labels": "D:\\CodexScratch\\MVIP2026_provenance\\fold1\\Fold-1\\labels",
+  "max_det": 300,
+  "n_images": 2352,
+  "noise": {
+    "linear_exposure": 0.1,
+    "photon_scale": 1024,
+    "quantization": "8-bit sRGB after shot/read noise; per-image SHA-derived seed",
+    "read_std": 0.001953125
+  },
+  "parameters_frozen": "Original published constants; no test-label tuning",
+  "seed": 20261027,
+  "selection": "entire official Fold 1; limit=0",
+  "signature": "2293d5204b0a844325c4528f641f489dc1ee5887a2434fbb0c5c80ff999ac7a0",
+  "threads": 4,
+  "timing": "Collection times are diagnostic only; use standalone benchmark for paper latency",
+  "tta": "original 640, horizontal flip 640 mapped back, unflipped scale 512; 3 calls, not equal FLOPs",
+  "weights_sha256": "fc92a7c61edbbd7edc4dea6ec1fd6992825e230e55e9bd22286285810aeb8b54",
+  "work_longside": 640
+}

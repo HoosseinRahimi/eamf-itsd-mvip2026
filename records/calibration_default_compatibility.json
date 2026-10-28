@@ -1,0 +1,7 @@
+{
+  "calibration_source_sha256": "b599457e2f834765ad7551077a62aabe939d6b2fdde6432078cd7933fe6c8a35",
+  "claim": "Parameterized default has identical frozen-reference fused boxes, scores and classes on all 702 validation records.",
+  "condition_image_cases": 702,
+  "reference_source_sha256": "186d17510af7b444b40f199a8a20c4a495426c9665f047aaa234ae4d2033f38e",
+  "status": "PASS"
+}

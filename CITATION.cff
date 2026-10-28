@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the associated research study and original datasets/methods."
+title: "EAMF: Full-Fold ITSD Reproducibility"
+type: software
+authors:
+  - family-names: Rahimi
+    given-names: Hossein
+date-released: 2026-10-28
+repository-code: "https://github.com/HoosseinRahimi/eamf-itsd-mvip2026"
+version: "1.0.0"

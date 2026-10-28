@@ -1,0 +1,52 @@
+{
+  "augmentation": "p=.5 gamma U[1,3], uint8 LUT, before standard transforms; geometric/color augmentation disabled",
+  "batch": 4,
+  "checkpoint_selection": "last epoch only; no selection using Fold 1 or best validation checkpoint",
+  "code_sha256": "2d12cc70af9f87942820db17413333792e29e6809c76a8b37f6406c2b87b64ac",
+  "environment": {
+    "created_utc": "2026-10-28T14:56:32.330853+00:00",
+    "machine": "AMD64",
+    "packages": {
+      "PyYAML": "6.0.2",
+      "ensemble-boxes": "1.0.9",
+      "numpy": "1.26.4",
+      "opencv-python": "4.11.0.86",
+      "pandas": "2.3.3",
+      "torch": "2.2.2+cu121",
+      "torchvision": "0.17.2+cu121",
+      "tqdm": "4.67.1",
+      "ultralytics": "8.3.233"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+    "python_executable": "D:\\CodexScratch\\MVIP2026_revision_20261027\\.venv-gpu\\Scripts\\python.exe",
+    "python_version": "3.12.3 (main, Apr 15 2024, 17:48:16) [MSC v.1929 64 bit (AMD64)]",
+    "torch_hardware": {
+      "cuda_available": true,
+      "cuda_device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "cuda_runtime": "12.1"
+    }
+  },
+  "epochs": 3,
+  "excluded_internal_duplicate_copies": 1,
+  "excluded_test_overlap": 7,
+  "fold2_manifest_sha256": "527d2d3544cfb9cb2a0ff392b294b31a4a488a9776cf8dac911decb6e4075ba1",
+  "imgsz": 640,
+  "initial_weights_sha256": "fc92a7c61edbbd7edc4dea6ec1fd6992825e230e55e9bd22286285810aeb8b54",
+  "lr0": 0.001,
+  "lrf": 0.1,
+  "momentum": 0.9,
+  "name": "fixed-budget gamma-augmentation fine-tune",
+  "optimizer": "SGD",
+  "scope": "Exploratory short fine-tune, not exhaustive training or independent confirmation of historical EAMF tuning",
+  "seed": 20261028,
+  "source_fold2_images": 2352,
+  "source_partition": "official Fold-2 only",
+  "split": "Remove exact Fold1 overlap and deduplicate Fold2 before 10% validation by ascending SHA256(20261028:filename); rest training",
+  "test_manifest_sha256": "0b61a8b95763b009a13b7f5c07e7b5452af33e89f8ff3c88c890b6f0a987d85f",
+  "test_overlap_by_filename_and_sha256": 0,
+  "train_images": 2110,
+  "validation_images": 234,
+  "warmup_epochs": 1,
+  "weight_decay": 0.0005
+}

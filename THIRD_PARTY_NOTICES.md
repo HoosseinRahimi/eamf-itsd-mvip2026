@@ -1,0 +1,6 @@
+# Third-party notices
+
+- ITSD data and official detector-weight release: I. Zarei and A. Fathi, Figshare version 2, https://doi.org/10.6084/m9.figshare.28943957.v2. The official Figshare record declares CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. Original datasets/base checkpoints are not redistributed. The bounded gamma-fine-tune checkpoint is identified as a modification initialized from the released YOLOv12n Fold 1 weights; its provenance and training procedure accompany it.
+- Zero-DCE: Chunle Guo and colleagues, CVPR 2020, DOI 10.1109/CVPR42600.2020.00185. The original author's repository https://github.com/Li-Chongyi/Zero-DCE declares academic research/non-commercial use and Attribution-NonCommercial 4.0 International. Neither its network file nor pretrained checkpoint is redistributed; the fetcher pins and verifies the original files.
+- Ultralytics 8.3.233, PyTorch, torchvision, OpenCV, NumPy, ensemble-boxes, and other dependencies retain their respective licenses. They are installed separately, not relicensed by this repository. Consult the exact installed distributions and their upstream notices.
+- This release does not grant new rights to third-party material. Source, raw measurements, and research documentation must retain their applicable attribution and license notices when reused.

@@ -1,5 +1,7 @@
 # EAMF: Full-Fold ITSD Reproducibility
 
+[![Paper](https://img.shields.io/badge/Paper-MVIP%202026-purple.svg)](#scope-and-findings)
+
 Source and recorded experiments for the study "Training-Free Photometric Test-Time Fusion for Traffic-Sign Detection: A Full-Fold ITSD Study" by Hossein Rahimi.
 
 ## Scope and findings
